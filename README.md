@@ -1,2 +1,2 @@
 # Personal Website
-My official portfolio website
+My personal website is a dynamic platform that showcases my work, skills, and passion for web development, aiming to demonstrate my proficiency to potential employers. It utilizes Vue.js for the user interface, CSS/SASS for styling, and HTML5 for markup. Page navigation is handled through scrolling and Vue router and  The contact form integrates email functionality with EmailJS.
