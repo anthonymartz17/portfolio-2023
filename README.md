@@ -4,7 +4,7 @@
 
 ## Overview
 
-Hello there! Welcome to my personal website—a dynamic platform where I showcase my passion for web development, share my projects, and provide insights into my coding journey. This website serves as a demonstration of my skills and proficiency to potential employers and connects me with fellow developers and enthusiasts.
+Hello there! Welcome to my personal website a dynamic platform where I showcase my passion for web development, share my projects, and provide insights into my coding journey. This website serves as a demonstration of my skills and proficiency to potential employers and connects me with fellow developers and enthusiasts.
 
 ### Technologies Used
 
