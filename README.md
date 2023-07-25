@@ -32,15 +32,15 @@ I particularly enjoyed implementing custom icons on the website. Unsatisfied wit
 
 ## Explore More on Social Media and Blog
 
-- **Instagram**: Follow me on Instagram [@YourInstagramUsername](https://www.instagram.com/your_instagram_username) to stay updated with my latest projects, coding-related posts, and behind-the-scenes insights.
+- **Instagram**: Follow me on Instagram [@martz_code](https://instagram.com/martz_code?igshid=NGExMmI2YTkyZg==) to stay updated with my latest projects, coding-related posts, and behind-the-scenes insights.
 
-- **YouTube Channel**: Subscribe to my YouTube channel [Your YouTube Channel Name](https://www.youtube.com/channel/your_channel_id) to watch in-depth breakdowns of my projects and gain valuable insights into my development process.
+- **YouTube Channel**: Subscribe to my YouTube channel [martz_code](https://www.youtube.com/channel/UCVECqgVfRZ4b_XFbp6-MvTQ) to watch in-depth breakdowns of my projects and gain valuable insights into my development process.
 
-- **Blog Page**: Visit my blog page [Your Blog Page URL](https://www.yourblogurl.com) to read my latest articles and posts about coding, my experiences with different projects, and more.
+- **Blog Page**: Visit my blog page [https://antoniomartinez.tech/home-blog/](https://antoniomartinez.tech/home-blog/) to read my latest articles and posts about coding, my experiences with different projects, and more.
 
 ## Project Descriptions with Video Explanations
 
-For a more interactive and informative experience, each project description includes a link to a full video explanation. In these videos, I discuss the project's details, challenges faced, and the solutions implemented. You get a deeper understanding of the code and the reasoning behind design decisions. To watch the video explanation, simply click on the provided link in the project description.
+For a more interactive and informative experience, each project description includes a link to a full video explanation. In these videos, I discuss the project's details, the faced challenges, and the solutions implemented. You get a deeper understanding of the code and the reasoning behind design decisions. To watch the video explanation, simply click on the provided link in the project description.
 
 ## Installation and Local Setup
 
@@ -51,16 +51,8 @@ For a more interactive and informative experience, each project description incl
 
 ## Feedback and Collaboration
 
-I'm always open to feedback and suggestions. If you have any questions about my projects, coding techniques, or if you'd like to collaborate on a project, feel free to reach out to me via [email](mailto:your.email@example.com) or through any of my social media channels.
+I'm always open to feedback and suggestions. If you have any questions about my projects or coding techniques, or if you'd like to collaborate on a project, feel free to reach out to me via [email](mailto:antonio.fr.martinezc@hotmail.com) or through any of my social media channels.
 
 Thank you for visiting my portfolio! I hope you find it enjoyable and informative.
 
----
 
-### Further Suggestions
-
-- Consider adding timestamps or summaries to your YouTube videos for easy navigation and quick access to specific project sections.
-- Embed your latest YouTube video directly in your README to provide visitors with a preview of your content.
-- Regularly update your blog with insightful posts and share them across your social media platforms to attract a wider audience.
-- Engage with your audience by responding to comments on your YouTube videos and blog posts.
-- Utilize analytics tools to track engagement on your blog and social media channels to understand what content resonates the most with your audience.
