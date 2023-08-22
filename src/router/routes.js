@@ -1,5 +1,5 @@
-import LandingPage from "../views/LandingPage.vue";
-import store from "../store/index";
+import LandingPage from "@/views/LandingPage.vue";
+import store from "@/store/index";
 
 export default [
 	{
