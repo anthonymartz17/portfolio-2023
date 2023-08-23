@@ -57,7 +57,7 @@ export default {
 					],
 				},
 				{
-					id: "javascript",
+					id: "javaScript",
 					concepts: [
 						{
 							concept: "Variables",
