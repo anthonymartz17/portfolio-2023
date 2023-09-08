@@ -5,6 +5,8 @@ export default {
 	state: {
 		blogPosts: [],
 	},
+	
+	
 	mutations: {
 		SET__BLOG_POSTS(state, payload) {
 			state.blogPosts = payload;

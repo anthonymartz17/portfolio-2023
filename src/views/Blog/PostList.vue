@@ -2,6 +2,7 @@
 import MartzIcon from "@/components/CustomIcons/MartzIcons.vue";
 import BaseButton from "@/components/Buttons/BaseButton.vue";
 import PostPreview from "@/components/Blog/PostPreview.vue";
+
 import { mapActions, mapGetters } from "vuex";
 
 export default {
@@ -65,6 +66,7 @@ export default {
 .noBlogs {
 	min-height: 30vh;
 }
+
 .blog-list-body {
 	display: grid;
 	gap: 1em;

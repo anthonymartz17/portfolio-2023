@@ -2,7 +2,6 @@
 import MartzIcon from "@/components/CustomIcons/MartzIcons.vue";
 import AppHeader from "@/components/Layout/AppHeader.vue";
 import AppFooter from "@/components/Layout/AppFooter.vue";
-
 export default {
 	components: {
 		AppHeader,
@@ -21,7 +20,7 @@ export default {
 			// disable: "mobile",
 		});
 		//in case coming from a route where viewing the footer for example
-		this.scrollTo()
+		this.scrollTo();
 	},
 	beforeDestroy() {
 		document.body.classList.remove("mobile-menu-open");
@@ -40,7 +39,7 @@ export default {
 	<div class="home-blogs-wrapper">
 		<div class="home-blogs-container">
 			<div class="home-blogs-container">
-				<AppHeader navigationOption="blog"  ref="TheHeader"/>
+				<AppHeader navigationOption="blog" ref="TheHeader" />
 
 				<main>
 					<div class="main-wrapper">
@@ -52,6 +51,7 @@ export default {
 				<AppFooter @scrollToEvent="scrollTo($event)" />
 			</footer>
 		</div>
+	
 	</div>
 </template>
 

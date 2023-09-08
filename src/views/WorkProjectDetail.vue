@@ -70,7 +70,7 @@ export default {
 </script>
 
 <template>
-	<div class="project-detail-wrapper" >
+	<div class="project-detail-wrapper">
 		<div class="project-detail-container" ref="refProjectContainer">
 			<div
 				class="backToProjects"
@@ -100,7 +100,7 @@ export default {
 						</div>
 						<img
 							v-else
-							:src="`/img/working-on-video.png`"
+							:src="`/img/in_development.jpg`"
 							alt="backup image saying working on video"
 						/>
 					</div>
@@ -263,7 +263,7 @@ export default {
 
 .videos-list {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 
 	gap: 1em;
 	font: $font-thin-text-mb;
@@ -303,7 +303,7 @@ export default {
 }
 .tech-icons {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 2em;
 }
 
@@ -338,6 +338,9 @@ export default {
 
 .project-detail-wrapper {
 	@include breakpoint(tablet) {
+		.videos-list {
+			grid-template-columns: 1fr 1fr;
+		}
 		.project-detail-container {
 			width: 80%;
 		}
@@ -356,7 +359,7 @@ export default {
 		}
 		.videos-list {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 		.backToProjects {
 			justify-content: flex-end;

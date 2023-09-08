@@ -14,8 +14,11 @@ export default {
 			offset: 200,
 		});
 	},
+
 	data() {
 		return {
+			developerName: "Antonio Martinez",
+			developerTitle: "Front-End Dev",
 			links: [
 				{ text: "Portfolio", icon: "portfolio", route: "Portfolio" },
 				{ text: "Youtube", icon: "youtubetv", secondText: "talk projects" },
@@ -35,8 +38,8 @@ export default {
 	<div class="landing-wrapper">
 		<div class="container">
 			<header class="header" data-aos="fade-up" data-aos-duration="800">
-				<h1 class="lg-title">Antonio Martinez</h1>
-				<h2 class="l-title">Front-End Dev</h2>
+				<h1 class="lg-title">{{ developerName }}</h1>
+				<h2 class="l-title">{{ developerTitle }}</h2>
 			</header>
 			<div
 				class="landing-body"
@@ -102,7 +105,7 @@ export default {
 	display: flex;
 	justify-content: center;
 }
-.resumeDownload-container{
+.resumeDownload-container {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 2em;
