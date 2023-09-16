@@ -83,7 +83,7 @@ export default {
 						this.blog = {};
 						this.blogThumbnail = [];
 						this.submitted = false;
-						this.$router.push({ name: "PostList" });
+						this.$router.push({ name: "Admin" });
 					} catch (error) {
 						throw error;
 					}
@@ -96,7 +96,7 @@ export default {
 						this.blog = {};
 						this.blogThumbnail = [];
 						this.submitted = false;
-						this.$router.push({ name: "PostList" });
+						this.$router.push({ name: "Admin" });
 					} catch (error) {
 						throw error;
 					}
