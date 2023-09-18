@@ -16,6 +16,41 @@ export default {
 <template>
 	<div>
 		<img
+			v-if="icon == 'nuxt'"
+			:height="size"
+			:width="size"
+			src="/icons/nuxt.svg"
+			alt="nuxt Icon"
+		/>
+		<img
+			v-if="icon == 'restfull_api'"
+			:height="size"
+			:width="size"
+			src="/icons/restfull_api.svg"
+			alt="restfull_api Icon"
+		/>
+		<img
+			v-if="icon == 'git'"
+			:height="size"
+			:width="size"
+			src="/icons/git.svg"
+			alt="git icon"
+		/>
+		<img
+			v-if="icon == 'firebase_icon'"
+			:height="size"
+			:width="size"
+			src="/icons/firebase_icon.svg"
+			alt="firebase icon"
+		/>
+		<img
+			v-if="icon == 'axios'"
+			:height="size"
+			:width="size"
+			src="/icons/axios.svg"
+			alt="axios icon"
+		/>
+		<img
 			v-if="icon == 'write'"
 			:height="size"
 			:width="size"

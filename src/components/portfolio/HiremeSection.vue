@@ -268,19 +268,15 @@ export default {
 		width: 85%;
 	}
 	@include breakpoint(desktop) {
-		width: 60%;
+		width: 75%;
 		display: flex;
 		gap: 3em;
-		justify-content: space-between;
+		justify-content: space-around;
 
-		.contact-form {
-			flex: 2;
-		}
 		.other-contact {
-			flex: 1;
+			width: 30%;
 			display: flex;
 			flex-direction: column;
-			align-items: end;
 		}
 	}
 }

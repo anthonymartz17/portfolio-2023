@@ -8,187 +8,21 @@ export default {
 			title: "Skills",
 			skillId: "vue",
 			skillsName: [
-				{ id: "vue", name: "vue.js", icon: "V", size: "90" },
 				{ id: "javaScript", name: "javaScript", icon: "JS", size: "79" },
-				{ id: "css3", name: "css3", icon: "css", size: "79" },
 				{ id: "html5", name: "html5", icon: "html", size: "79" },
-			],
-			skillsDescriptions: [
+				{ id: "css3", name: "css3", icon: "css", size: "79" },
+				{ id: "sass", name: "Sass", icon: "sass", size: "90" },
+				{ id: "vue", name: "vue.js", icon: "Vue", size: "90" },
+				{ id: "nuxt", name: "Nuxt.js", icon: "nuxt", size: "90" },
+				{ id: "axios", name: "Axios", icon: "axios", size: "90" },
+				{ id: "git", name: "Git", icon: "git", size: "79" },
+				{ id: "github", name: "GitHub", icon: "github", size: "79" },
+				{ id: "firebase_icon", name: "Firebase", icon: "firebase", size: "79" },
 				{
-					id: "vue",
-					concepts: [
-						{
-							concept: "Vue Router",
-							description:
-								"route matching, parameters, nested routes, router-view component, navigation guards, lazy loading, meta fields",
-						},
-						{
-							concept: "Vuex",
-							description:
-								"state, getters, mutations, actions, modules, store, namespaced modules, mapper helpers",
-						},
-
-						{
-							concept: "Components",
-							description:
-								"Reusable and modular building blocks, encapsulate templates, data, methods, and styles to create self-contained units of functionality.",
-						},
-
-						{
-							concept: "Options API",
-							description:
-								"Data, props, methods, computed properties, watchers, lifeCycle hooks, mixins",
-						},
-						{
-							concept: "Composition API",
-							description:
-								"Setup function, reactive, ref, watch, computed, lifeCycles hooks",
-						},
-
-						{
-							concept: "Template Syntax",
-							description: "Directives, interpolation, two-way data binding.",
-						},
-						{
-							concept: "Libraries",
-							description:
-								"vuelidate, vuex, vue CLI, Axios, Bootstrap Vue, Vue Router",
-						},
-					],
-				},
-				{
-					id: "javaScript",
-					concepts: [
-						{
-							concept: "Variables",
-							description: "Var, let, and const.",
-						},
-						{
-							concept: "Data Types",
-							description:
-								"String, Number, Boolean, Undefined, Null, Symbol, Array, Object, Function.",
-						},
-						{
-							concept: "Arrays",
-							description:
-								"forEach, map, filter, reduce, push, splice, includes, join.",
-						},
-						{
-							concept: "Control Flow",
-							description:
-								"if, else, switch, and looping constructs (for, while, do-while).",
-						},
-						{
-							concept: "ES6+ Features",
-							description:
-								"Template literals, array/object destructuring, spread operators, default parameters, and arrow functions.",
-						},
-						{
-							concept: "Classes",
-							description: "Classes and constructor functions.",
-						},
-						{
-							concept: "DOM Manipulation",
-							description:
-								"Selecting Elements, Modifying Content, Attributes, Creating Elements, Appending and Removing Elements, Adding and Removing Classes, Event Handling.",
-						},
-						{
-							concept: "Asynchronous Operations",
-							description:
-								"Callback Functions, Promises, Async/Await, Fetch API, Error Handling, try/catch.",
-						},
-					],
-				},
-				{
-					id: "css3",
-					concepts: [
-						{
-							concept: "CSS Selectors",
-							description:
-								"Element selectors, class selectors, ID selectors, descendant selectors, etc.",
-						},
-						{
-							concept: "Box Model",
-							description: "Borders, padding, margin, and content.",
-						},
-						{
-							concept: "Layout Techniques",
-							description: "Flexbox and CSS Grid.",
-						},
-						{
-							concept: "Responsive Design",
-							description:
-								"Mobile-first approach, media queries, breakpoints, etc.",
-						},
-						{
-							concept: "CSS Preprocessors",
-							description:
-								"Sass. Variables, nesting, mixins, and other features.",
-						},
-						{
-							concept: "CSS Transitions and Animations",
-							description:
-								"Keyframes, easing functions, transition properties, and other features.",
-						},
-						{
-							concept: "CSS3 Features",
-							description:
-								"Rounded corners, gradients, shadows, transformations, pseudo-classes, etc.",
-						},
-						{
-							concept: "CSS Frameworks",
-							description: "Bootstrap.",
-						},
-					],
-				},
-				{
-					id: "html5",
-					concepts: [
-						{
-							concept: "HTML Structure",
-							description:
-								"Basic document structure with doctype, html, head, and body elements.",
-						},
-						{
-							concept: "Semantic Elements",
-							description:
-								"Semantic elements like header, nav, main, section, article, footer, etc.",
-						},
-						{
-							concept: "Forms and Input Elements",
-							description:
-								"Input elements like input, textarea, select, label, and form attributes.",
-						},
-						{
-							concept: "Links and Anchors",
-							description: "links with anchor tags and attributes.",
-						},
-						{
-							concept: "Images",
-							description:
-								"Image tags and its attributes like src, alt, width, and height.",
-						},
-
-						{
-							concept: "HTML5 APIs",
-							description:
-								"HTML5 APIs like Geolocation, LocalStorage, and WebSockets.",
-						},
-						{
-							concept: "Accessibility",
-							description: "ARIA and alt attributes for images.",
-						},
-						{
-							concept: "Tables",
-							description:
-								"Table-related elements like tr, th, td, thead, tbody, tfoot, etc.",
-						},
-						{
-							concept: "Multimedia",
-							description:
-								"Embedding multimedia content with audio, video, and iframe elements.",
-						},
-					],
+					id: "restfull_api",
+					name: "RESTfull API",
+					icon: "restfull_api",
+					size: "100",
 				},
 			],
 		};
@@ -198,11 +32,6 @@ export default {
 	methods: {
 		switchSkillId(id) {
 			this.skillId = id;
-		},
-	},
-	computed: {
-		skillDescription() {
-			return this.skillsDescriptions.find((one) => one.id == this.skillId);
 		},
 	},
 };
@@ -225,31 +54,13 @@ export default {
 				:data-aos-delay="250"
 			>
 				<div class="skills-icons-container">
-					<div
-						class="skill-icon"
-						v-for="icon in skillsName"
-						:key="icon.id"
-						@click="switchSkillId(icon.id)"
-					>
+					<div class="skill-icon" v-for="icon in skillsName" :key="icon.id">
 						<!-- added additional div to align icons to the bottom and from there control individual size of icons -->
 						<div class="icon">
-							<MartzIcon
-								:icon="icon.id"
-								:color="skillId == icon.id ? 'accent' : 'white'"
-								:size="icon.size"
-							/>
+							<MartzIcon :icon="icon.id" :size="icon.size" />
 						</div>
 						<p class="icon-name">{{ icon.name }}</p>
-						<!-- <div  v-if="icon.id == skillId">{{scrollPosition}}</div> -->
 					</div>
-				</div>
-				<div class="skill-description-container">
-					<ul>
-						<li v-for="skill in skillDescription.concepts" :key="skill.concept">
-							<h4>{{ skill.concept }}:</h4>
-							<p>{{ skill.description }}</p>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
@@ -277,8 +88,7 @@ export default {
 	display: grid;
 	place-items: center;
 	padding: 1em;
-	// border: 0.5px solid rgba(255, 255, 255, 0.121);
-	cursor: pointer;
+
 	box-shadow: 0 3px 15px rgba(255, 255, 255, 0.151);
 }
 .skills-icons-container {
@@ -323,9 +133,7 @@ export default {
 			width: 85%;
 		}
 		.skills-icons-container {
-			display: flex;
-			padding: 0;
-			justify-content: space-around;
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 		.skill-description-container {
 			li {
@@ -350,19 +158,12 @@ export default {
 			gap: 1em;
 		}
 		.skills-icons-container {
-			display: grid;
 			flex: 1;
-			max-height: 15em;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
 		}
 
 		.skill-description-container {
 			flex: 1;
-		}
-		.skill-icon {
-			transition: all 250ms ease-in-out;
-			&:hover {
-				box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 40px;
-			}
 		}
 	}
 }
