@@ -100,7 +100,7 @@ export default {
 						</div>
 						<img
 							v-else
-							:src="`/img/in_development.jpg`"
+							:src="`/img/winner-23-homepage.png`"
 							alt="backup image saying working on video"
 						/>
 					</div>
